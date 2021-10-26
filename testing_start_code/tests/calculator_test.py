@@ -10,3 +10,6 @@ class TestCalculator(unittest.TestCase):
 
     def test_divide__returns_floating_2point5(self):
         self.assertEqual(2.5, divide(5, 2))
+
+    def test_multiply__returns_floating_8point5(self):
+        self.assertEqual(8.5, multiply(3.4, 2.5))
